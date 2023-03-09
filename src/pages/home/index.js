@@ -26,7 +26,7 @@ function HomePage() {
         <h2 className="city">London</h2>
       </div>
       <div className="box home-projects">
-        <Link to="/React-Portfolio/projects" className="button">
+        <Link to="/projects" className="button">
           Projects
         </Link>
         <img src={phone_dev} alt="projects frontend development" />
@@ -62,7 +62,7 @@ function HomePage() {
           further, why wait? Let's connect today and explore any potential
           collaborations or opportunities together
         </p>
-        <Link to="/React-Portfolio/contact" className="button">
+        <Link to="/contact" className="button">
           Contact
         </Link>
       </div>

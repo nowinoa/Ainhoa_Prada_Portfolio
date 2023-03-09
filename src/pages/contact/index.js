@@ -1,9 +1,9 @@
 import "./index.css";
-import ContactModal from "../modal";
+import ContactModal from "../../components/modal";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function Contact() {
-  const memoji_desktop = require("../Home/img/63256.jpg");
+  const memoji_desktop = require("../home/img/63256.jpg");
   const body = (
     <form>
       <label>Name:</label>

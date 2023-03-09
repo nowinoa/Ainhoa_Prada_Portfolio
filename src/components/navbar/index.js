@@ -7,7 +7,7 @@ function Navbar() {
       <ul className="navbar-nav me-auto mb-2 mb-lg-0 kllk">
       <li className="nav-item">
         <NavLink 
-          to="/React-Portfolio"
+          to="/"
           end
           aria-current="page"
           className={({isActive}) => 
@@ -16,7 +16,7 @@ function Navbar() {
       </li>
       <li className="nav-item">
       <NavLink 
-          to="/React-Portfolio/projects"
+          to="/projects"
           end
           className={({isActive}) => 
             isActive ? 'nav-link active' : 'nav-link'} 
@@ -24,7 +24,7 @@ function Navbar() {
       </li>
       <li className="nav-item">
       <NavLink 
-          to="/React-Portfolio/contact"
+          to="/contact"
           end
           className={({isActive}) => 
             isActive ? 'nav-link active' : 'nav-link'} 

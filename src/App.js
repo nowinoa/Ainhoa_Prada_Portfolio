@@ -6,21 +6,33 @@ import Contact from "./pages/contact";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faGlobe, faEnvelope } from "@fortawesome/free-solid-svg-icons";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { createHashRouter, createRoutesFromElements, RouterProvider, Outlet, Route } from "react-router-dom";
 library.add(faGithub, faLinkedin, faGlobe, faEnvelope);
 
-function App() {
-  return (
-      <BrowserRouter>
-      <Header />
-        {/* On this app we are using react router dom */}
-        <Routes>
-          <Route exact path="/" element={<HomePage />} />
-          <Route  path="/projects" element={<Projects />} />
-          <Route  path="/contact" element={<Contact />} />
-        </Routes>
-      </BrowserRouter>
-  );
-}
+const App = () => {
+  const router = createHashRouter(
+    createRoutesFromElements(
+      <Route path="/" element={<Root />}>
+        <Route path="/" index element={<HomePage />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/contact" element={<Contact />} />
+      </Route>
+    )
+  )
 
+  return <RouterProvider router={router} />
+}
+const Root = () => {
+  return (
+    <>
+      <div>
+        <Header />
+      </div>
+      <div>
+        <Outlet />
+      </div>
+    </>
+  )
+}
 export default App;
+
