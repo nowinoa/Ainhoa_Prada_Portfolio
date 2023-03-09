@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Ainhoa_Prada_Portfolio/static/css/main.5bc0d65c.css",
+    "main.js": "/Ainhoa_Prada_Portfolio/static/js/main.23c648b6.js",
+    "static/js/787.1ed0c42c.chunk.js": "/Ainhoa_Prada_Portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/63256.jpg": "/Ainhoa_Prada_Portfolio/static/media/63256.0ddde63c6b7d71763f21.jpg",
+    "static/media/58982.jpg": "/Ainhoa_Prada_Portfolio/static/media/58982.30942448f11db64027bd.jpg",
+    "static/media/phone-developer.png": "/Ainhoa_Prada_Portfolio/static/media/phone-developer.d8fc8d3276ff753d12ca.png",
+    "index.html": "/Ainhoa_Prada_Portfolio/index.html",
+    "main.5bc0d65c.css.map": "/Ainhoa_Prada_Portfolio/static/css/main.5bc0d65c.css.map",
+    "main.23c648b6.js.map": "/Ainhoa_Prada_Portfolio/static/js/main.23c648b6.js.map",
+    "787.1ed0c42c.chunk.js.map": "/Ainhoa_Prada_Portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5bc0d65c.css",
+    "static/js/main.23c648b6.js"
+  ]
+}
