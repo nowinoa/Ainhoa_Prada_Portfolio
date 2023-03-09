@@ -1,5 +1,5 @@
 import "./index.css";
-import ProjectCard from "../project-card";
+import ProjectCard from "../../components/project-card";
 import projectList from "./projects.json";
 
 function Projects() {

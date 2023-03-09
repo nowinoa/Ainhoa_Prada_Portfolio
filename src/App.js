@@ -1,24 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Projects from "./pages/projects";
+import  Header from './components/header';
+import HomePage from "./pages/home";
+import Contact from "./pages/contact";
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faGlobe, faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+library.add(faGithub, faLinkedin, faGlobe, faEnvelope);
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <BrowserRouter>
+      <Header />
+        {/* On this app we are using react router dom */}
+        <Routes>
+          <Route exact path="/" element={<HomePage />} />
+          <Route  path="/projects" element={<Projects />} />
+          <Route  path="/contact" element={<Contact />} />
+        </Routes>
+      </BrowserRouter>
   );
 }
 
