@@ -32,7 +32,7 @@ function HomePage() {
         <img src={phone_dev} alt="projects frontend development" />
       </div>
       <div className="box tools">
-        <Modal title="tools" body={body} />
+        <Modal title="tools" body={body} header='Tools' />
       </div>
       <div className="box linkedin">
         <a
