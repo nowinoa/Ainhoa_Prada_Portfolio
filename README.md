@@ -8,6 +8,7 @@ This project solves the problem of having to navigate through multiple websites 
 
 Through the development of this project, I learned how to use React, JavaScript, and various npm modules to create a dynamic and responsive web application. I also learned how to incorporate Bootstrap and Font Awesome icons to enhance the user interface.
 
+<img src="./public/img-app.png" alt="image of this application">
 
 ## Table of Contents
 * [Tools](#tools)
@@ -39,6 +40,7 @@ Upon opening the application, you will be directed to the home page. The home pa
 The projects page displays my latest projects, each of which has a button to the uploaded page and another to the code on GitHub.
 
 The contact page allows users to contact me by filling out a contact form. There is also an email option if you prefer to save the contact information for later. Additionally, you can navigate to my LinkedIn and GitHub profiles, and download my PDF curriculum by clicking the button.
+<img src="./public/contact-form.png" alt="image of this application">
 
 
 ## Credits
