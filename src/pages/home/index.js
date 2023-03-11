@@ -3,6 +3,7 @@ import React from "react";
 import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Modal from "../../components/modal";
+import Tools from '../../components/tools';
 import { Link } from "react-router-dom";
 
 
@@ -11,7 +12,7 @@ function HomePage() {
   const memoji_desktop = require(`./img/58982.jpg`);
   const memoji_explosion = require('./img/19576.jpg');
   const phone_dev = require(`./img/phone-developer.png`);
-  const body = <h3>Here the tools I always use!</h3>;
+  const body = < Tools />
 
   const [actMemoji, setActMemoji] =  useState(memoji_desktop);
 
@@ -46,7 +47,7 @@ function HomePage() {
         <img src={phone_dev} alt="projects frontend development" />
       </div>
       <div className="box tools">
-        <Modal title="tools" body={body} header='Tools' />
+        <Modal title="tools" body={body} header='Tools'/>
       </div>
       <div className="box linkedin">
         <a
