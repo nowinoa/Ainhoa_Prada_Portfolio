@@ -17,7 +17,7 @@ function HomePage() {
   const [actMemoji, setActMemoji] =  useState(memoji_desktop);
 
   const toggleImage = () => {
-    if(actMemoji === memoji_explosion) setActMemoji(memoji)
+    if(actMemoji === memoji_explosion) setActMemoji(memoji_desktop)
     else setActMemoji(memoji_explosion)
     
   }
