@@ -12,6 +12,7 @@ function Tools () {
                 <FontAwesomeIcon style={{width: 60, height: 60}} icon="fa-brands fa-git-alt" />
                 <FontAwesomeIcon style={{width: 60, height: 60}} icon="fa-brands fa-npm" />
                 <FontAwesomeIcon style={{width: 60, height: 60}} icon="fa-brands fa-figma" />
+                <FontAwesomeIcon style={{width: 60, height: 60}} icon="fa-brands fa-bootstrap" />
             </div>
         )
 }
