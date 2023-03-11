@@ -6,7 +6,7 @@ My Portfolio is a web application that showcases my projects and skills. I built
 
 This project solves the problem of having to navigate through multiple websites or repositories to view my projects and skills. With My Portfolio, all of the information is organized in one location, making it easy for others to view and evaluate my work.
 
-Through the development of this project, I learned how to use React, JavaScript, and various npm modules to create a dynamic and responsive web application. I also learned how to incorporate Bootstrap and Font Awesome icons to enhance the user interface.
+Through the development of this project, I learned how to use React, JavaScript, and various npm modules to create a dynamic and responsive web application.
 
 <img src="./public/img-app.png" alt="image of this application">
 
