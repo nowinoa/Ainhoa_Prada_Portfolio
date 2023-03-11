@@ -26,7 +26,7 @@ Through the development of this project, I learned how to use React, JavaScript,
 :point_right:  https://github.com/nowinoa/Ainhoa_Prada_Portfolio  :point_left:
 
 ## Installation
-To install My Portfolio, follow these steps:
+To install my portfolio, follow these steps:
 
 1. Clone this repository onto your local machine.
 2. Navigate to the project directory.
