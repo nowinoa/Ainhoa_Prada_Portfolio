@@ -34,7 +34,7 @@ function Contact() {
       <div className=" box cv">
         <img src={memoji_desktop} alt="Ainhoa Prada Developer" />
         <a href={Resume} download="Resume" className="btn-cv">
-          Curriculum PDF
+          Download Reasume
         </a>
       </div>
       <div className=" box c-github">

@@ -1,14 +1,28 @@
 import "./index.css";
 import React from "react";
+import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Modal from "../../components/modal";
 import { Link } from "react-router-dom";
 
+
 function HomePage() {
   const memoji = require("./img/63256.jpg");
   const memoji_desktop = require(`./img/58982.jpg`);
+  const memoji_explosion = require('./img/19576.jpg');
   const phone_dev = require(`./img/phone-developer.png`);
   const body = <h3>Here the tools I always use!</h3>;
+
+  const [actMemoji, setActMemoji] =  useState(memoji_desktop);
+
+  const toggleImage = () => {
+    if(actMemoji === memoji_explosion) setActMemoji(memoji)
+    else setActMemoji(memoji_explosion)
+    
+  }
+  
+  
+  
   return (
     <div className="home-page">
       <div className="box about">
@@ -49,10 +63,10 @@ function HomePage() {
         </a>
       </div>
       <div className="box toggle">
-        <button className="toggle-btn">Toogle here!</button>
+        <button className="toggle-btn" onClick={toggleImage}>Toogle here!</button>
         <img
           id="toggle-img"
-          src={memoji_desktop}
+          src={actMemoji}
           alt="Memoji Ainhoa Frontend Developer"
         />
       </div>
