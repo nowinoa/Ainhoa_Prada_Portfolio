@@ -26,6 +26,7 @@
         background-color: white;
         color: rgb(32, 32, 32);
         transition: all 0.2s linear 0.5s;
+        text-decoration: underline;
     }
 }
 @media (max-width: 991px) {
