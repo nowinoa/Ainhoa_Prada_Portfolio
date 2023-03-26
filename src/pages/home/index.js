@@ -8,9 +8,9 @@ import { Link } from "react-router-dom";
 
 
 function HomePage() {
-  const memoji = require("./img/63256.jpg");
-  const memoji_desktop = require(`./img/58982.jpg`);
-  const memoji_explosion = require('./img/19576.jpg');
+  const memoji = require("./img/web_developer.jpg");
+  const memoji_desktop = require(`./img/apple_Developer.jpg`);
+  const memoji_explosion = require('./img/web_explosion.jpg');
   const phone_dev = require(`./img/phone-developer.png`);
   const body = < Tools />
 

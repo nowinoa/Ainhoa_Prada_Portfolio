@@ -5,7 +5,7 @@ import { ContactUs } from "../../components/form";
 import Resume from "./CV (1).pdf";
 
 function Contact() {
-  const memoji_desktop = require("../home/img/63256.jpg");
+  const memoji_desktop = require("../home/img/web_developer.jpg");
   const body = <ContactUs />;
   const envelope = (
     <FontAwesomeIcon

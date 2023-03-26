@@ -3,7 +3,7 @@ import ProjectCard from "../../components/project-card";
 import projectList from "./projects.json";
 
 function Projects() {
-  const phone_dev = require(`../home/img/58982.jpg`);
+  const phone_dev = require(`../home/img/apple_Developer.jpg`);
   return (
     <div className="projects">
       <div className="about-projects">
