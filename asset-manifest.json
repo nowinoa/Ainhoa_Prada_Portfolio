@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/Ainhoa_Prada_Portfolio/static/css/main.c1835913.css",
-    "main.js": "/Ainhoa_Prada_Portfolio/static/js/main.9a5db9eb.js",
+    "main.js": "/Ainhoa_Prada_Portfolio/static/js/main.a23ed2e6.js",
     "static/js/787.1ed0c42c.chunk.js": "/Ainhoa_Prada_Portfolio/static/js/787.1ed0c42c.chunk.js",
-    "static/media/19576.jpg": "/Ainhoa_Prada_Portfolio/static/media/19576.5ff32fcd17fd2227a8ba.jpg",
-    "static/media/63256.jpg": "/Ainhoa_Prada_Portfolio/static/media/63256.0ddde63c6b7d71763f21.jpg",
-    "static/media/58982.jpg": "/Ainhoa_Prada_Portfolio/static/media/58982.30942448f11db64027bd.jpg",
+    "static/media/web_explosion.jpg": "/Ainhoa_Prada_Portfolio/static/media/web_explosion.5ff32fcd17fd2227a8ba.jpg",
+    "static/media/web_developer.jpg": "/Ainhoa_Prada_Portfolio/static/media/web_developer.0ddde63c6b7d71763f21.jpg",
+    "static/media/apple_Developer.jpg": "/Ainhoa_Prada_Portfolio/static/media/apple_Developer.30942448f11db64027bd.jpg",
     "static/media/CV (1).pdf": "/Ainhoa_Prada_Portfolio/static/media/CV (1).714ea81f4ca7d95d2e62.pdf",
     "static/media/phone-developer.png": "/Ainhoa_Prada_Portfolio/static/media/phone-developer.d8fc8d3276ff753d12ca.png",
     "index.html": "/Ainhoa_Prada_Portfolio/index.html",
     "main.c1835913.css.map": "/Ainhoa_Prada_Portfolio/static/css/main.c1835913.css.map",
-    "main.9a5db9eb.js.map": "/Ainhoa_Prada_Portfolio/static/js/main.9a5db9eb.js.map",
+    "main.a23ed2e6.js.map": "/Ainhoa_Prada_Portfolio/static/js/main.a23ed2e6.js.map",
     "787.1ed0c42c.chunk.js.map": "/Ainhoa_Prada_Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c1835913.css",
-    "static/js/main.9a5db9eb.js"
+    "static/js/main.a23ed2e6.js"
   ]
 }
