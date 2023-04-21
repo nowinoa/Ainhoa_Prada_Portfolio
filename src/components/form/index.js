@@ -17,9 +17,9 @@ export const ContactUs = () => {
   const bodyForm = 
   <form className="formulario" ref={form} onSubmit={sendEmail}>
   <label>Name</label>
-  <input type="text" name="user_name" className='i' required/>
+  <input type="text" name="name" className='i' required/>
   <label>Email</label>
-  <input type="email" name="user_email" className='i' required/>
+  <input type="email" name="email" className='i' required/>
   <label>Message</label>
   <textarea name="message" required/>
   <input type="submit" value="Send" className='i submission' required/>
