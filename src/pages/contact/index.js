@@ -2,7 +2,7 @@ import "./index.css";
 import ContactModal from "../../components/modal";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { ContactUs } from "../../components/form";
-import Resume from "./CV (1).pdf";
+import Resume from "./resume.pdf";
 
 function Contact() {
   const memoji_desktop = require("../home/img/web_developer.jpg");
